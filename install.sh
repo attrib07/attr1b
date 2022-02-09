@@ -118,6 +118,12 @@ echo -e "\e[40;38;5;82m Installing Assestfinder \e[0m\n"
 go get -u github.com/tomnomnom/assetfinder
 
 echo -e "\e[40;38;5;82m Assetfinder installed \e[0m\n"
+#==============================================================================================
+echo -e "\e[40;38;5;82m Installing Crobat \e[0m\n"
+
+go get github.com/cgboal/sonarsearch/crobat
+
+echo -e "\e[40;38;5;82m Crobat installed \e[0m\n"
 
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Dnsx \e[0m\n"
