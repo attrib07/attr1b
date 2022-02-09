@@ -29,8 +29,8 @@ This will display help for the tool. Here are all the switches it supports.
 
 <details>
 <summary> 👉 attr1b help menu 👈</summary>
-
-```
+ 
+ ```
 Usage of ./attr1b:
  
   -s
