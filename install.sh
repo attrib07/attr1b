@@ -20,6 +20,7 @@ echo -e "\e[40;38;5;82m Installing python3 and required tools \e[0m\n"
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
+sudo apt-get install -y ruby-full
 sudo apt-get install python3.8
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y libssl-dev
