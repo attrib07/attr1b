@@ -56,7 +56,8 @@ Usage of ./attr1b:
  4.Github-subdomains 
  5.Subfinder 
  6.Assetfinder
- 7.Dnsx
+ 7.Cgboal
+ 8.Dnsx
 
  # Required Tools for Subdomain, DNS Bruteforcing Wordlist Generator, Maintains a list of IPv4 DNS servers by verifying them against baseline servers and  multipurpose.
  1.ctfr.py
