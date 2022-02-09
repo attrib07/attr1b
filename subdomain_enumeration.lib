@@ -1,0 +1,13 @@
+#!/bin/bash
+
+subdomain_Enumeration()
+{
+cd ${RUNNING_PATH}
+mkdir subdomains
+cd subdomains
+
+sleep 2
+printf "\nCollecting DNS_Resolvers" | notify --silent
+dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 500 -o resolvers.txt
+
+printf "\nStarting Subdomain Enumeration" | notify --silent
