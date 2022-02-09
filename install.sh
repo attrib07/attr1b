@@ -204,7 +204,7 @@ go get github.com/haccer/subjack
 echo -e "\e[40;38;5;82m Subjack installed \e[0m\n"
 
 #==============================================================================================
-PORT SCAN
+#PORT SCAN
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Unimap \e[0m\n"
 
@@ -229,7 +229,7 @@ sudo apt-get install nmap -y
 echo -e "\e[40;38;5;82m Nmap installed \e[0m\n"
 
 #==============================================================================================
-Content discovery:
+#Content discovery:
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Gospider \e[0m\n"
 
@@ -246,7 +246,7 @@ pip3 install -r requirements.txt
 
 echo -e "\e[40;38;5;82m Dirsearch installed \e[0m\n"
 #==============================================================================================
-HTTP Parameter Discovery Suite
+#HTTP Parameter Discovery Suite
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Parmaspider \e[0m\n"
 
@@ -263,7 +263,7 @@ pip3 install arjun
 echo -e "\e[40;38;5;82m Arjun installed \e[0m\n"
 
 #==============================================================================================
-(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang
+#(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing kxss \e[0m\n"
 
@@ -281,14 +281,14 @@ go install github.com/hahwul/dalfox/v2@latest
 echo -e "\e[40;38;5;82m Dalfox installed \e[0m\n"
 
 #==============================================================================================
-DNS WORDLIST
+#DNS WORDLIST
 #==============================================================================================
 echo -e "\e[40;38;5;82m Downloading best-dns-wordlist.txt and permutation words \e[0m\n"
 
 wget https://wordlists-cdn.assetnote.io/data/manual/best-dns-wordlist.txt -P $HOME/wordlist/
 wget https://gist.githubusercontent.com/six2dez/ffc2b14d283e8f8eff6ac83e20a3c4b4/raw -P $HOME/wordlist/ && mv $HOME/wordlist/raw $HOME/wordlist/permutations_list.txt
 #==============================================================================================
-Vulnerability Scanners
+#Vulnerability Scanners
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Nuclei \e[0m\n"
 
@@ -297,7 +297,7 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 echo -e "\e[40;38;5;82m Nuclei Installed \e[0m\n"
 
 #==============================================================================================
-To get Notification:
+#To get Notification:
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Notify \e[0m\n"
 
