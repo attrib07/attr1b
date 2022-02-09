@@ -49,37 +49,60 @@ Usage of ./attr1b:
 <summary> 👉 Tools used in project 👈</summary>
 
 ```
- 1. subfinder
- 2. ctfr.py
- 3. Assestfinder
- 4. Findomain
- 5. sd-goo
- 5. shodan
- 6. anew
- 7. amass
- 8. gauplus
- 9. waybackurls
-10. github-subdomains
-11. Crobat
-12. Puredns
-13. DNSCewl
-14. dnsvalidator
-15. httpx
-16. Gospider
-17. Notify
-18. Unfurl
-19. Unimap
-20. Subjack
-21. Dirsearch
-22. Parmaspider
-23. kxss
-24. Dnsx
-25. jq
-26. Naabu
-27. Nmap
-28. Dalfox
-29. Nuclei
-30. xsshunter
+ # Required Tools for Subdomain_Enumuration: 
+ 1.Amass 
+ 2.Sublist3r
+ 3.Sd-goo 
+ 4.Github-subdomains 
+ 5.Subfinder 
+ 6.Assetfinder
+ 7.Dnsx
+
+ # Required Tools for Subdomain, DNS Bruteforcing Wordlist Generator, Maintains a list of IPv4 DNS servers by verifying them against baseline servers and  multipurpose.
+ 1.ctfr.py
+ 2.Puredns
+ 
+ #Required Tools to Sort and filter subdomains
+ 1.anew
+ 2.gauplus
+ 
+ #Fetch all the URLs that the Wayback Machine knows about for a domain and Inteligense gathering.
+ 1.Shodan
+ 2.Waybackurls
+ 
+ # Check Response httpx and Technologies
+ 1.httpx
+ 2.dnsvalidator
+ 
+ #Subdomain Takeover
+ 1.Subjack
+
+ #Port Scan
+ 1. Nmap
+ 2. unimap-linux
+ 3. Naabu
+
+#Content discovery:
+ 1.Gospider
+ 2.Dirsearch 
+ 
+#HTTP Parameter Discovery Suite
+ 1.Parmaspider
+ 2.Arjun
+ 
+#Finder Of XSS/ Parameter Analysis and XSS Scanning tool based on golang
+1.kxss
+2.Dalfox
+ 
+#DNS WORDLIST
+ best-dns-wordlist.txt
+ 
+#Vulnerability Scanners:
+ 1.Nuclei
+ 
+#To get Notification:
+ 1.Notify
+
 ```
 </details>
 
