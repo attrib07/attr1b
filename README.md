@@ -42,3 +42,44 @@ Usage of ./attr1b:
 ```
 
 </details>
+
+# :nut_and_bolt: Tools Used
+
+<details>
+<summary> 👉 Tools used in project 👈</summary>
+
+```
+ 1. subfinder
+ 2. ctfr.py
+ 3. Assestfinder
+ 4. Findomain
+ 5. sd-goo
+ 5. shodan
+ 6. anew
+ 7. amass
+ 8. gauplus
+ 9. waybackurls
+10. github-subdomains
+11. Crobat
+12. Puredns
+13. DNSCewl
+14. dnsvalidator
+15. httpx
+16. Gospider
+17. Notify
+18. Unfurl
+19. Unimap
+20. Subjack
+21. Dirsearch
+22. Parmaspider
+23. kxss
+24. Dnsx
+25. jq
+26. Naabu
+27. Nmap
+28. Dalfox
+29. Nuclei
+30. xsshunter
+```
+</details>
+
