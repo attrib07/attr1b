@@ -31,6 +31,19 @@ sudo apt-get install -y python-setuptools
 sudo apt-get install -y libldns-dev
 sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
+apt-get install -y build-essential
+apt-get install -y gcc 
+apt-get install -y git
+apt-get install -y vim 
+apt-get install -y wget 
+apt-get install -y curl
+apt-get install -y awscli
+apt-get install -y inetutils-ping 
+apt-get install -y make
+apt-get install -y nikto
+apt-get install -y dnsutils 
+apt-get install -y nano
+apt-get install -y net-tools
 apt install jq -y 
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
