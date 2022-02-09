@@ -35,6 +35,7 @@ apt install jq -y
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
 
+#==============================================================================================
 echo -e "\e[40;38;5;82m Installing Go language \e[0m\n"
 
 #Download the Go binary
@@ -45,21 +46,21 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.3.linux-amd64.tar.gz
 
 #Copy the binary to be able to use for any user
 cp /usr/local/go/bin/go /usr/bin
-
+#==============================================================================================
 #Adding these line to your terminal config file(.bashrc/.zshrc)
 echo "export GOROOT=/usr/local/go" >> ~/.bashrc
 echo "export GOPATH=$HOME/go" >> ~/.bashrc
 echo "export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH" >> ~/.bashrc
 echo "export PATH=$HOME/go/bin:$PATH" >> ~/.bashrc
 echo "export PATH=$PATH:/snap/bin" >> ~/.bashrc
-
+#==============================================================================================
 #Source your terminal (or restart terminal)
 source ~/.bashrc 
 rm go1.17.3.linux-amd64.tar.gz
 
 echo -e "\e[40;38;5;82mGo language installed \e[0m\n"
 #==============================================================================================
-# Required Tools for Subdomain_Enumuration: Amass, Sublist3r, sd-goo, github-subdomains, subfinder and assetfinder.
+#Required Tools for Subdomain_Enumuration: Amass, Sublist3r, sd-goo, github-subdomains, subfinder and assetfinder.
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing pip3, snap Package Manager and shodan \e[0m\n"
 
@@ -126,7 +127,7 @@ go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 echo -e "\e[40;38;5;82m Dnsx installed \e[0m\n"
 
 #==============================================================================================
-# Required Tools for Subdomain, DNS Bruteforcing Wordlist Generator, Maintains a list of IPv4 DNS servers by verifying them against baseline servers and multipurpose
+#Required Tools for Subdomain, DNS Bruteforcing Wordlist Generator, Maintains a list of IPv4 DNS servers by verifying them against baseline servers and multipurpose
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing ctfr.py \e[0m\n"
 
@@ -144,9 +145,16 @@ cd massdns && make && make install
 go install github.com/d3mondev/puredns/v2@latest
 
 echo -e "\e[40;38;5;82m Puredns installed \e[0m\n"
-
 #==============================================================================================
-# Required Tools to Sort and filter subdomains
+echo -e "\e[40;38;5;82m Installing dnsvalidator \e[0m\n"
+
+cd $HOME/tools/ && git clone https://github.com/vortexau/dnsvalidator.git
+cd dnsvalidator/
+python3 setup.py install
+
+echo -e "\e[40;38;5;82m DNSCewl installed \e[0m\n"
+#==============================================================================================
+#Required Tools to Sort and filter subdomains
 #==============================================================================================
 
 echo -e "\e[40;38;5;82m Installing anew \e[0m\n"
@@ -177,7 +185,7 @@ go get -u github.com/tomnomnom/unfurl
 echo -e "\e[40;38;5;82m Unfurl installed \e[0m\n"
 
 #==============================================================================================
-Check Response httpx and Technologies
+#Check Response httpx and Technologies
 #==============================================================================================
 
 echo -e "\e[40;38;5;82m Installing httpx \e[0m\n"
@@ -187,7 +195,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 echo -e "\e[40;38;5;82m httpx installed \e[0m\n"
 
 #==============================================================================================
-Subdomain Takeover
+#Subdomain Takeover
 #==============================================================================================
 echo -e "\e[40;38;5;82m Installing Subjack \e[0m\n"
 
