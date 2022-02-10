@@ -1,7 +1,6 @@
 #!/bin/bash
 source ./input_domain.lib
 source ./wayback_urls.lib
-source ./xss_hunter.lib
 source ./subdomain_enumeration.lib
 source ./nuclei.lib
 source ./probing.lib
@@ -56,7 +55,6 @@ while getopts ":smah" arg; do
             nuclei_Scanning
             port_Scanning
             dirsearch_Fuzzing
-            #xss_Hunter
             printf "Work is completed for $DOMAIN" | notify --silent
           ;;
           \? | h )
