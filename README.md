@@ -31,7 +31,7 @@ This will display help for the tool. Here are all the switches it supports.
 <summary> 👉 attr1b help menu 👈</summary>
  
  ```
-Usage of ./attr1b.sh :
+Usage of ./attr1b.sh:
  
   -s
         for only subdomain enumeration
@@ -50,18 +50,20 @@ Usage of ./attr1b.sh :
 
 ```
  # Required Tools for Subdomain_Enumuration: 
- 1.Amass 
- 2.Sublist3r
+ 1. Subfinder Amass 
+ 2.ctfr
  3.Sd-goo 
- 4.Github-subdomains 
- 5.Subfinder 
- 6.Assetfinder
- 7.Cgboal
- 8.Dnsx
+ 4.Assetfinder
+ 5.Shodan
+ 6.Amass
+ 7.gauplus
+ 8.Waybackurls
+ 9.Github-subdomains
+ 10.crobat
+ 
 
  # Required Tools for Subdomain, DNS Bruteforcing Wordlist Generator, Maintains a list of IPv4 DNS servers by verifying them against baseline servers and  multipurpose.
- 1.ctfr.py
- 2.Puredns
+ 1.Puredns
  
  #Required Tools to Sort and filter subdomains
  1.anew
