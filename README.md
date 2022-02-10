@@ -23,7 +23,7 @@ $ ./install.sh
 # Usage
 
 ```sh
-./attr1b -h
+./attr1b.sh -h
 ```
 This will display help for the tool. Here are all the switches it supports.
 
@@ -31,7 +31,7 @@ This will display help for the tool. Here are all the switches it supports.
 <summary> 👉 attr1b help menu 👈</summary>
  
  ```
-Usage of ./attr1b:
+Usage of ./attr1b.sh :
  
   -s
         for only subdomain enumeration
