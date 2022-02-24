@@ -74,3 +74,5 @@ printf "Scan for network started\n" | notify --silent
 nuclei -l ${RUNNING_PATH}/httpx/httpx.txt -silent -t ${HOME}/nuclei-templates/network/ -o output/network.txt 
 printf "Scan for network completed\n" | notify --silent
 wc -l output/network.txt | awk '{print $1 " network are founded by nuclei"}' | notify --silent
+
+}
